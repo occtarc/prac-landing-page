@@ -1,0 +1,97 @@
+html{
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+*,
+::after,
+::before{
+    box-sizing: inherit;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+    background-color: #FDF2E9;
+}
+
+ul{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+/*Header*/
+.header{
+    padding: 12px 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header h2{
+    margin: 0;
+    font-size: 28px;
+}
+
+.nav-bar ul{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+.nav-bar a{
+    font-size: 16px;
+}
+
+.circle{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: black;
+}
+
+/* Hero image */
+
+.hero-img{
+    background-image: url(assets/Paisajes_verdes08.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    margin-inline: 16px;
+    padding: 60px;
+    display: flex;
+    border-radius: 20px;
+    color: #FDF2E9;
+}
+
+.hero-container{
+    width:70%;
+}
+.hero-container h1{
+    margin: 0;
+    margin-top: 16px;
+    font-size: 82px;
+    font-weight: 600;
+    color: #FEF5E7;
+}
+
+.hero-container p{
+    font-size: 20px;
+}
+
+.hero-container button{
+    margin-top: 40px;
+    padding: 14px 60px;
+    border: none;
+    border-radius: 20px;
+    background-color: #FDF2E9;
+    cursor:pointer;
+    font-weight: 700;
+}
