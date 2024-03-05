@@ -95,3 +95,47 @@ a{
     cursor:pointer;
     font-weight: 700;
 }
+
+.benefits{
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.benefits h3{
+    margin: 0;
+    margin-top: 75px;
+    font-size: 48px;
+    text-align: center;
+}
+
+.benefits > p{
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+
+.benefits-container{
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap:25px;
+}
+
+.benefits-card{
+    max-width: 250px;
+    text-align: center;
+}
+
+.benefits-card h5{
+    margin-top: 6px;
+    margin-bottom: 0;
+    font-size: 18px;
+}
+
+
+.svg-container{
+    padding: 5px;
+    display: inline-block;
+    background-color: antiquewhite;
+    border-radius: 50%;
+}
