@@ -275,3 +275,211 @@ a{
     border-radius: 20px;
     text-align: center;
 }
+
+/*Blog Section */
+
+.blog-section{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.blog-info{
+    display: flex;
+    justify-content: space-between;
+}
+
+.blog-info h3{
+    margin: 0;
+    font-size: 60px;
+}
+.blog-info .p-info{
+    max-width: 50%;
+}
+
+.p-info button{
+    padding: 16px 45px;
+    margin-top: 30px;
+    display: block;
+    background-color: transparent;
+    border: 1px solid #464141;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.blog-articles{
+    height: 100vh;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.article-left{
+    width: 45%;
+    height: 100vh;
+    border: 1px solid #CACFD2;
+    border-radius: 20px;
+}
+
+.article-img{
+    height: 85%;
+    overflow: hidden;
+    position: relative;
+    border-radius: 20px;
+}
+
+.article-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.article-img p{
+    margin: 0;
+    padding: 8px;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    display: inline;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(5px);
+    border-radius: 20px;
+    color: white;
+    font-weight: 500;
+    text-align: center;
+}
+
+.article-info{
+    padding:15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.article-info h5{
+    margin: 0;
+    margin-bottom: 5px;
+    font-size: 24px;
+}
+
+.article-info span{
+    padding: 5px 10px;
+    margin-top: 5px;
+    margin-right: 10px;
+    display: inline-block;
+    background-color: rgba(90, 90, 90, 0.1);
+    border-radius: 30px;
+}
+
+.article-info button{
+    padding: 8px 10px;
+    font-size: 16px;
+    border-radius: 50%;
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.right-articles{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.right-articles article{
+    border: 1px solid #CACFD2;
+    border-radius: 20px;
+    height: 45%;
+}
+.right-articles article .article-img{
+    height: 65%;
+}
+
+/*Img section*/
+
+.img-sec{
+    height: 70vh;
+    width: 90%;
+    margin: 95px auto 0 auto;
+    background-image: url(assets/paisaje-azores.jpg);
+    background-size: cover;
+    background-position: center;
+    filter: brightness(0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+}
+
+.img-container{
+    max-width: 50%;
+    text-align: center;
+}
+
+.img-sec h2{
+    font-size: 60px;
+    color:#FDF2E9;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.img-sec button{
+    padding: 16px 45px;
+    border: none;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+/* Footer */
+
+.footer{
+    margin-inline: 16px;
+    margin-top: 100px;
+    padding: 60px;
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 25px;
+}
+
+.up{
+    display: flex;
+    justify-content: space-between;
+}
+
+.up .left{
+    max-width: 20%;
+}
+
+.up .left h4{
+    margin: 0;
+    font-size: 22px;
+}
+
+.up .right{
+    display: flex;
+    gap: 40px;
+}
+
+.right ul li{
+    margin-bottom: 10px;
+}
+
+.right li strong{
+    font-size: 17px;
+}
+
+.cp-sec{
+    display: flex;
+    justify-content: space-between;
+}
+
+.social-media{
+    margin-top: 16px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
